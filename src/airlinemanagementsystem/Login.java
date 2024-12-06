@@ -63,7 +63,7 @@ public class Login extends JFrame implements ActionListener{
                 ResultSet rs = c.s.executeQuery(query);
                 
                 if (rs.next()) {
-                   System.out.println("Valid");
+                  new Home();
                    setVisible(false);
                 } else {
                     JOptionPane.showMessageDialog(null, "Invalid Username or Password");
