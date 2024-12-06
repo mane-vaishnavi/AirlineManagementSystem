@@ -84,6 +84,8 @@ public class AddCustomer extends JFrame implements ActionListener{
         tfphone.setBounds(220, 330, 150, 25);
         add(tfphone);
         
+        
+        
         JButton save = new JButton("SAVE");
         save.setBackground(Color.BLACK);
         save.setForeground(Color.WHITE);
