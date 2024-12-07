@@ -37,7 +37,7 @@ public class BookFlight extends JFrame implements ActionListener{
         fetchButton = new JButton("Fetch User");
         fetchButton.setBackground(Color.BLACK);
         fetchButton.setForeground(Color.WHITE);
-        fetchButton.setBounds(380, 80, 120, 25);
+        fetchButton.setBounds(400, 80, 120, 25);
         fetchButton.addActionListener(this);
         add(fetchButton);
         
@@ -51,7 +51,7 @@ public class BookFlight extends JFrame implements ActionListener{
         add(tfname);
         
         JLabel lblnationality = new JLabel("Nationality");
-        lblnationality.setBounds(60, 180, 150, 25);
+        lblnationality.setBounds(60, 170, 150, 25);
         lblnationality.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lblnationality);
         
@@ -60,7 +60,7 @@ public class BookFlight extends JFrame implements ActionListener{
         add(tfnationality);
         
         JLabel lbladdress = new JLabel("Address");
-        lbladdress.setBounds(60, 230, 150, 25);
+        lbladdress.setBounds(60, 220, 150, 25);
         lbladdress.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lbladdress);
         
@@ -69,30 +69,30 @@ public class BookFlight extends JFrame implements ActionListener{
         add(tfaddress);
         
         JLabel lblgender = new JLabel("Gender");
-        lblgender.setBounds(60, 280, 150, 25);
+        lblgender.setBounds(60, 260, 150, 25);
         lblgender.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lblgender);
         
         labelgender = new JLabel("Gender");
-        labelgender.setBounds(220, 280, 150, 25);
+        labelgender.setBounds(220, 260, 150, 25);
         add(labelgender);
         
         JLabel lblsource = new JLabel("Source");
-        lblsource.setBounds(60, 330, 150, 25);
+        lblsource.setBounds(60, 310, 150, 25);
         lblsource.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lblsource);
         
         source = new Choice();
-        source.setBounds(220, 330, 150, 25);       
+        source.setBounds(220, 310, 150, 25);       
         add(source);
         
         JLabel lbldest = new JLabel("Destination");
-        lbldest.setBounds(60, 380, 150, 25);
+        lbldest.setBounds(60, 360, 150, 25);
         lbldest.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lbldest);
         
         destination = new Choice();
-        destination.setBounds(220, 380, 150, 25);       
+        destination.setBounds(220, 360, 150, 25);       
         add(destination);
         
         try {
@@ -112,12 +112,12 @@ public class BookFlight extends JFrame implements ActionListener{
         flight = new JButton("Fetch Flights");
         flight.setBackground(Color.BLACK);
         flight.setForeground(Color.WHITE);
-        flight.setBounds(380, 380, 120, 25);
+        flight.setBounds(400, 360, 120, 25);
         flight.addActionListener(this);
         add(flight);
         
         JLabel lblfname = new JLabel("Flight Name");
-        lblfname.setBounds(60, 430, 150, 25);
+        lblfname.setBounds(60, 410, 150, 25);
         lblfname.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lblfname);
         
@@ -126,7 +126,7 @@ public class BookFlight extends JFrame implements ActionListener{
         add(labelfname);
         
         JLabel lblfcode = new JLabel("Flight Code");
-        lblfcode.setBounds(60, 480, 150, 25);
+        lblfcode.setBounds(60, 460, 150, 25);
         lblfcode.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lblfcode);
         
@@ -135,30 +135,30 @@ public class BookFlight extends JFrame implements ActionListener{
         add(labelfcode);
         
         JLabel lbldate = new JLabel("Date of Travel");
-        lbldate.setBounds(60, 530, 150, 25);
+        lbldate.setBounds(60, 500, 150, 25);
         lbldate.setFont(new Font("Tahoma", Font.PLAIN, 16));
         add(lbldate);
         
         dcdate = new JDateChooser();
-        dcdate.setBounds(220, 530, 150, 25);
+        dcdate.setBounds(220, 500, 150, 25);
         add(dcdate);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airlinemanagementsystem/icons/details.jpg"));
-        Image i2 = i1.getImage().getScaledInstance(450, 320, Image.SCALE_DEFAULT);
+        Image i2 = i1.getImage().getScaledInstance(390, 290, Image.SCALE_DEFAULT);
         ImageIcon image = new ImageIcon(i2);
         JLabel lblimage = new JLabel(image);
-        lblimage.setBounds(550, 80, 500, 410);
+        lblimage.setBounds(500, 80, 480, 500);
         add(lblimage);
         
         bookflight = new JButton("Book Flight");
         bookflight.setBackground(Color.BLACK);
         bookflight.setForeground(Color.WHITE);
-        bookflight.setBounds(220, 580, 150, 25);
+        bookflight.setBounds(220, 550, 150, 25);
         bookflight.addActionListener(this);
         add(bookflight);
         
-        setSize(1100, 700);
-        setLocation(200, 50);
+        setSize(1000, 650);
+        setLocation(200, 40);
         setVisible(true);
     }
     

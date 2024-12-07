@@ -98,8 +98,8 @@ public class AddCustomer extends JFrame implements ActionListener{
         lblimage.setBounds(450, 80, 280, 400);
         add(lblimage);
         
-        setSize(900, 600);
-        setLocation(300, 150);
+        setSize(800, 550);
+        setLocation(250, 80);
         setVisible(true);
     }
     

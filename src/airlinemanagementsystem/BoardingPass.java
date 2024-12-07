@@ -107,14 +107,14 @@ public class BoardingPass extends JFrame implements ActionListener{
         add(labeldate);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airlinemanagementsystem/icons/airindia.png"));
-        Image i2 = i1.getImage().getScaledInstance(300, 230, Image.SCALE_DEFAULT);
+        Image i2 = i1.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT);
         ImageIcon image = new ImageIcon(i2);
         JLabel lblimage = new JLabel(image);
-        lblimage.setBounds(600, 0, 300, 300);
+        lblimage.setBounds(500, 50, 300, 300);
         add(lblimage);
         
-        setSize(1000, 450);
-        setLocation(300, 150);
+        setSize(900, 400);
+        setLocation(250, 100);
         setVisible(true);
     }
     

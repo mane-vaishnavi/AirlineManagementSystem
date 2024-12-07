@@ -39,7 +39,7 @@ public class JourneyDetails extends JFrame implements ActionListener{
         jsp.setBackground(Color.WHITE);
         add(jsp);
         
-        setSize(800, 600);
+        setSize(840, 500);
         setLocation(400, 150);
         setVisible(true);
     }

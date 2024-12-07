@@ -19,7 +19,7 @@ public class Home extends JFrame implements ActionListener{
         heading.setForeground(Color.BLUE);
         heading.setFont(new Font("Tahoma", Font.PLAIN, 36));
         image.add(heading);
-        
+       
         JMenuBar menubar = new JMenuBar();
         setJMenuBar(menubar);
         
@@ -50,6 +50,7 @@ public class Home extends JFrame implements ActionListener{
         menubar.add(ticket);
         
         JMenuItem boardingPass = new JMenuItem("Boarding Pass");
+        boardingPass.addActionListener(this);
         ticket.add(boardingPass);
         
         
@@ -70,6 +71,8 @@ public class Home extends JFrame implements ActionListener{
             new JourneyDetails();
         } else if (text.equals("Cancel Ticket")) {
             new Cancel();
+        }else if (text.equals("Boarding Pass")) {
+            new BoardingPass();
         }
     }
     
