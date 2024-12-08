@@ -2,7 +2,7 @@
 This project on Airline Management System is the automation of registration process of airlines system.<br> 
 The system provides information like passenger’s information, 
 flight information, list of all passengers, it allows storing and retrieving data related to the airline industry and make transactions related to air travel etc. <br>
-The system also allows us to add records when a passenger reserves a ticket. <br>
+The system also allows us to add records when a passenger reserves a ticket.
 For data storage and retrieval we use MySQL Database.<br>
  It enables us to add any number of records in our database. 
 The project “Airline Management System” <br>comprises of a large number of flights which belong to a particular airline. 
@@ -21,7 +21,7 @@ Core Java is the part of Java programming language that is used for creating or 
  It uses only one tier architecture that is why it is called as ‘stand alone’ application.
  Core java programming covers the swings, socket, awt, thread concept, collection object and classess.
 
-* * Swings
+* * * Swings
 Swing is a GUI widget toolkit for Java. It is part of Oracle's Java Foundation Classes (JFC) – an API for providing a graphical user interface (GUI) for Java programs. 
 
 ### Backend Implementation 
