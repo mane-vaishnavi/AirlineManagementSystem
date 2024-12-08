@@ -1,6 +1,6 @@
 ## Airline Management System
 ### Project Overview
-This project on Airline Management System is the automation of registration process of airlines system.<br> 
+- - - This project on Airline Management System is the automation of registration process of airlines system.<br> 
 The system provides information like passenger’s information, 
 flight information, list of all passengers, it allows storing and retrieving data related to the airline industry and make transactions related to air travel etc. <br>
 The system also allows us to add records when a passenger reserves a ticket.
