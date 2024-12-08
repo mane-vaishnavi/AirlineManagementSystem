@@ -1,4 +1,5 @@
-# Project Overview
+# Airline Management System
+### Project Overview
 This project on Airline Management System is the automation of registration process of airlines system.<br> 
 The system provides information like passenger’s information, 
 flight information, list of all passengers, it allows storing and retrieving data related to the airline industry and make transactions related to air travel etc. <br>
@@ -16,12 +17,12 @@ Database Used - MySQL<br>
 
 
 ### Frontend Implementation
-* Java Core<br>
+* Core Java<br>
 Core Java is the part of Java programming language that is used for creating or developing <br>a general-purpose application.<br>
  It uses only one tier architecture that is why it is called as ‘stand alone’ application.
  Core java programming covers the swings, socket, awt, thread concept, collection object and classess.
 
-* * * Swings
+* Swings
 Swing is a GUI widget toolkit for Java. It is part of Oracle's Java Foundation Classes (JFC) – an API for providing a graphical user interface (GUI) for Java programs. 
 
 ### Backend Implementation 
