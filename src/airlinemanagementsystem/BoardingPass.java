@@ -118,6 +118,7 @@ public class BoardingPass extends JFrame implements ActionListener{
         setVisible(true);
     }
     
+    
     public void actionPerformed(ActionEvent ae) {
         String pnr = tfpnr.getText();
 
