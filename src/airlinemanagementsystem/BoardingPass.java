@@ -110,7 +110,7 @@ public class BoardingPass extends JFrame implements ActionListener{
         Image i2 = i1.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT);
         ImageIcon image = new ImageIcon(i2);
         JLabel lblimage = new JLabel(image);
-        lblimage.setBounds(500, 50, 300, 300);
+        lblimage.setBounds(550, 10, 300, 300);
         add(lblimage);
         
         setSize(900, 400);

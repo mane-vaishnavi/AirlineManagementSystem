@@ -19,6 +19,7 @@ public class Home extends JFrame implements ActionListener{
         heading.setForeground(Color.BLUE);
         heading.setFont(new Font("Tahoma", Font.PLAIN, 36));
         image.add(heading);
+         
        
         JMenuBar menubar = new JMenuBar();
         setJMenuBar(menubar);

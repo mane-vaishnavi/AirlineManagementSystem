@@ -28,8 +28,8 @@ public class FlightInfo extends JFrame{
         jsp.setBounds(0, 0, 800, 500);
         add(jsp);
         
-        setSize(800,500);
-        setLocation(250, 100);
+        setSize(900,600);
+        setLocation(250, 80);
         setVisible(true);
     }
 
