@@ -10,7 +10,7 @@ The project “Airline Management System” <br>comprises of a large number of f
 
 ### Each of these access a database schema which has corresponding tables.
 
-Language Used -  Java Core <br>
+Language Used - Core Java <br>
 Concept Used - Swing<br>
 IDE Used - NetBeans<br>
 Database Used - MySQL<br>
